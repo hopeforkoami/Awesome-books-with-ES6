@@ -11,7 +11,7 @@ In this project, I restructure the Awesome books app code. The goal is to make i
 
 ## Live Demo 🔗
 
-Check the live demo [github](https://hopeforkoami.github.io/Awesome_books_with_ES6/)👈
+Check the live demo [github](https://hopeforkoami.github.io/Awesome-books-with-ES6/)👈
 
 
 ## Getting Started
