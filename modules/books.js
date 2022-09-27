@@ -1,8 +1,8 @@
-import { BookPage } from "./bookPage.js";
+import { BookPage } from './bookPage.js';
 import Book from './book.js';
 
-const booksList = ()=>{
-    const page = new BookPage();
+const booksList = () => {
+  const page = new BookPage();
   const title = document.querySelector('.title');
   const author = document.querySelector('.author');
   function displayComponent(elmnts) {
@@ -30,7 +30,7 @@ const booksList = ()=>{
     });
   }
 
-  function addnewbook(e) { 
+  function addnewbook(e) {
     e.preventDefault();
     page.addBook(new Book(page.generateId(), title.value, author.value));
     page.refreshBookList();
@@ -54,7 +54,6 @@ const booksList = ()=>{
   removeBook(-2);
   document.querySelector('.submit_button').addEventListener('click', addnewbook);
   window.removeBook = removeBook;
-}
+};
 
-export { booksList }
-
+export default { booksList };

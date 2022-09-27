@@ -34,4 +34,6 @@ class BookPage {
   }
 }
 
-export { BookPage }
+Book();
+
+export default { BookPage };

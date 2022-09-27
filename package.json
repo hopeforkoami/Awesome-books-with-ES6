@@ -27,5 +27,8 @@
     "url": "https://github.com/hopeforkoami/Awesome_books/issues"
   },
   "homepage": "https://github.com/hopeforkoami/Awesome_books#readme",
-  "keywords": []
+  "keywords": [],
+  "dependencies": {
+    "luxon": "^3.0.4"
+  }
 }

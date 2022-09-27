@@ -1,5 +1,4 @@
-const general = ()=>{
-
+const general = () => {
   const listMenu = document.querySelector('.book_list_section');
   const addMenu = document.querySelector('.book_add_section');
   const contactMenu = document.querySelector('.book_contact_section');
@@ -112,7 +111,6 @@ const general = ()=>{
     document.querySelector('.date').innerHTML = `${reformat[0] + dayend}, ${reformat[1]}  ${generateFormatedHour(actualDate)}`;
   }
   setInterval(displayDateTime, 1000);
+};
 
-}
-
-export { general }
+export default { general };
